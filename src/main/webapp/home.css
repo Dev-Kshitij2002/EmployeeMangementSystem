@@ -1,0 +1,72 @@
+/* Body Styling */
+body {
+    background: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Table Styling */
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Button Styling */
+.btn-sm {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+    background: #e0a800;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-success {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background: #218838;
+}
+
+/* Alert Box */
+.alert {
+	background-color: white;
+	color: black;
+	border: 1px solid white;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
